@@ -1,0 +1,59 @@
+<!doctype html>
+<html>
+<head>
+    <title>nature</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" type="text/css" href="nature.css">
+      <script>
+        function hey(imag)
+        {
+             document.getElementById("bgd").style.backgroundImage = "url(" + imag.src + ")"; //background image changed to image hoverd on //
+            if(document.getElementById("bgd").style.backgroundImage ==url("20180728_144714.jpg"));
+            {
+                document.getElementById('pp').style.color=blue;
+            }
+        }
+</script>
+</head>
+
+<header>
+    <p>The Nature Clicks</p>
+<nav>
+    <a href="#" class="active">Home</a>
+    <a href="#">Insects</a>
+    <a href="#">Reptiles</a>
+    <a href="#">Birds</a>
+</nav>
+</header>
+
+<body>
+    <div class="back" id="bgd"></div>
+    
+    <div class="bgtext">
+   <section class="left">
+        <h3>Something about me !!! </h3>
+        <p class="pp"> Hi there !!
+         <br>I am Tanmay Mahindrakar 
+        <br>I like taking pictures of insects and animals and beautiful nature
+        <br> Juz have a look at some of my phone clicks !! <br>
+        hover over the images...
+    </p>
+   </section>
+    <section class="picgroup">
+        <figure>
+        <img class="pic" src="20180728_144714.jpg" alt="pic1" onmouseover="hey(this)" >
+        <img class="pic"  src="20180414_164522.jpg" alt="pic2" onmouseover="hey(this)">
+        <img class="pic" src="20200530_061832.jpg" alt="pic3" onmouseover="hey(this)">
+        <img class="pic" src="20190704_114647.jpg" alt="pic4" onmouseover="hey(this)">
+        <img class="pic" src="Screenshot_20200122-191029_Gallery.jpg" alt="pic4" onmouseover="hey(this)">
+        </figure>
+    </section>
+   </body>
+</div>
+    <footer>
+        <p>Comment here:</p><textarea type="text" placeholder="you can comment here..." row="9" maxlength="50"></textarea>
+        <br>
+        <input type="submit" value="Submit" name="submit" >
+    </footer>
+    
+</html>
