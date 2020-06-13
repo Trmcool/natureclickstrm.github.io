@@ -74,8 +74,6 @@ margin-left: 35em;
 margin-top: 1.3em;
 position: fixed;
 background-color: rgba(176, 207, 203,.5);
-
-
 }
 
 
@@ -107,7 +105,7 @@ nav a:hover{
 
 footer{
     font-size: 2em;
-    color:rgb(220, 220, 238)
+    color:rgb(220, 220, 238);
 }
 footer input{
     font-size: .5em;
