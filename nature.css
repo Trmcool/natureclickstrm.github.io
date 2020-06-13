@@ -19,17 +19,13 @@ body,html{
 
 .pic{
     display:inline-block;
-    width:20rem;
-    height:20rem;
+    width:30%;
+    height:30%;
     position:relative;
-    border:2px solid black;
+    border:2px solid red;
 }
 
-.picgroup{
-    
-    box-sizing: border-box;
-    /*border:2px solid black;*/
-}
+
 
 .bgtext{
   background-color: rgba(0,0,0, 0.4); /* Black w/opacity/see-through */
@@ -78,7 +74,7 @@ font-weight: bolder;
 font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
 padding:.3em;
 column-count:1;
-margin-left: 10em;
+margin-left: 25em;
 margin-top: 1.3em;
 position: fixed;
 background-color: rgb(176, 207, 203);
@@ -88,7 +84,7 @@ background-color: rgb(176, 207, 203);
 
 
 header{
-    width: 96%;
+    width: 100%;
     height:9em;
     z-index: 1000;
     position: absolute;
@@ -96,7 +92,7 @@ header{
     background-color: rgba(245, 244, 244,.9);
     position: fixed;
     border-radius: 5px;
-    margin-left: 1.8em;
+    
 }
 nav{
     display:block;
