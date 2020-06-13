@@ -25,19 +25,14 @@ body,html{
     border:2px solid black;
 }
 
-.picgroup{
-    
-    box-sizing: border-box;
-    /*border:2px solid black;*/
-}
 
 .bgtext{
   background-color: rgba(0,0,0, 0.4); /* Black w/opacity/see-through */
   color: white;
   border: 3px solid #f1f1f1;
   position: absolute;
-  top:30%;
-  height:150%;
+  top:40%;
+  height:20em;
 }
 .left{
     margin:2em;
@@ -78,7 +73,7 @@ font-weight: bolder;
 font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
 padding:.3em;
 column-count:1;
-margin-left: 25em;
+margin-left: 30em;
 margin-top: 1.3em;
 position: fixed;
 background-color: rgba(176, 207, 203,.5);
@@ -91,11 +86,11 @@ header{
     width: 96%;
     height:9em;
     z-index: 1000;
-    position: absolute;
-    margin-bottom: 1em;
+   margin:0em 0em 10em 0em;
     background-color: rgba(245, 244, 244,.9);
     position: fixed;
     border-radius: 5px;
+    align-content:center;
 }
 nav{
     display:block;
