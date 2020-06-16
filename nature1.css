@@ -74,6 +74,10 @@ nav a:hover{
     height:70%;
     padding: 20px;
     font-family: 'Courier New', Courier, monospace;
+    font-size: 130%;
+}
+.backt p{
+    margin-left:2em;
 }
 .imag{
     text-align: center;
@@ -95,18 +99,6 @@ nav a:hover{
   background-repeat: no-repeat;
   background-size: cover;
 }
-
-
-
-
-
-
-
-
-
-
-
-
 footer{
     position: absolute;
     top:100%
