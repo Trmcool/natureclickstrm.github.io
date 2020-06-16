@@ -1,5 +1,4 @@
 function show(bg)
 {
-    alert("hellooooo")
-    document.getElementsByClassName("backg").style.backgroundImage= "url("+bg.src+")";
+    document.getElementById('hey').style.backgroundImage= "url("+bg.src+")";
 }
