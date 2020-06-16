@@ -3,7 +3,7 @@
     box-sizing: border-box;
 }
 body,html{
-     height: 100%;
+     height: 135%;
   margin:auto 0;
   font-family: Arial, Helvetica, sans-serif;
 }
@@ -66,15 +66,16 @@ nav a:hover{
     font-weight: bold;
     border: 3px solid #f1f1f1;
     position: absolute;
-    top: 55%;
+    top: 60%;
     left: 50%;
     transform: translate(-50%, -50%);
     z-index: 2;
     width: 80%;
-    height:80%;
+    height:100%;
     padding: 20px;
     font-family: 'Courier New', Courier, monospace;
     font-size: 130%;
+    margin-top: 5em;
 }
 .backt p{
     margin-left:2em;
@@ -101,5 +102,6 @@ nav a:hover{
 }
 footer{
     position: absolute;
-    top:100%
+    top:150%;
+    margin-left: 2em;
 }
