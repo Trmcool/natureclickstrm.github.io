@@ -117,4 +117,11 @@ footer h3{
 
 aside{
     float:right;
+    position relative;
+
+}
+.cr{
+    text-align: center;
+    font-size: 1em;
+    color: black;
 }
