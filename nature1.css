@@ -101,6 +101,9 @@ nav a:hover{
   -webkit-transform-property:all;
   -webkit-transition-delay: .3s;
   -webkit-transition-duration: 1s;
+  -moz-transition-property: all;
+  -moz-transition-delay: .3s;
+  -moz-transition-duration: 1s;
 }
 footer{
     position: absolute;
