@@ -114,7 +114,7 @@ footer{
 }
 
 footer h3{
-    color:rgb(41, 4, 56);
+    color:rgb(247, 244, 248);
 }
 
 aside{
@@ -122,9 +122,12 @@ aside{
     position :relative;
 
 }
+.classroom{
+    background-color: black;
+}
 .cr{
     text-align: center;
     font-size: .6em;
-    color: black;
+    color: rgb(241, 238, 238);
     font-family: 'Courier New', Courier, monospace;
 }
