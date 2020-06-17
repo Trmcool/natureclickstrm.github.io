@@ -96,8 +96,11 @@ nav a:hover{
   background-repeat: no-repeat;
   background-size: cover;
   transition-property: all;
-  transition-delay: .08s;
-  transition-duration: .8s;
+  transition-delay: .3s;
+  transition-duration: 1s;
+  -webkit-transform-property:all;
+  -webkit-transition-delay: .3s;
+  -webkit-transition-duration: 1s;
 }
 footer{
     position: absolute;
