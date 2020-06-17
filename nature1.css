@@ -124,6 +124,7 @@ aside{
 }
 .cr{
     text-align: center;
-    font-size: 1em;
+    font-size: .6em;
     color: black;
+    font-family: 'Courier New', Courier, monospace;
 }
