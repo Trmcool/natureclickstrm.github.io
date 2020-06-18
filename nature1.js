@@ -5,5 +5,19 @@ function show(bg)
 
 function menu()
 {
-   document.getElementById('navi').style.display= "visible";
+  var x= document.getElementById('navi').querySelectorAll('a');
+  var i;
+  for ( i = 0; i < x.length; i++) {
+      x[i].style.display="block";
+      
+  }
+}
+
+function nomenu(){
+    var z = document.getElementById('navi').querySelectorAll('a');
+    var j;
+    for (j= 0; j < z.length; j++) {
+        z[j].style.display = "none";
+
+    }
 }
