@@ -6,6 +6,6 @@ function show(bg)
 var elements=document.getlElementsByClassName("column")
     function grid() {
         for (i = 0; i < elements.length; i++) {
-            elements[i].style.msFlex = "100%";  
-            elements[i].style.flex = "100%";
+            elements[i].style.msFlex = "25%";  
+            elements[i].style.flex = "25%";
         }
