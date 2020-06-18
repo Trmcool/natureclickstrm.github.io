@@ -14,12 +14,13 @@
     
     <header class="navg">
         <h1 class="logo">The Nature Clicks</h1>
-        <button id="menu" onclick="menu()">Menu</button>
+        <button id="menu" onmouseover="menu()" onmouseout="nomenu()">Menu</button>
         <nav id="navi" class="col-12-Xl col-3-xs col-6-sm col-12-lg col-9-md">
-            <a id="home" class="active" href="nature1.html" >HOME</a>
-            <a id="ins" href="insects.html" >INSECTS</a>
-            <a id="ani" href="animals.html" >ANIMALS </a>
-            <a id="cont" href="#" >CONTACT ME</a>
+            <div id=drop> 
+            <a id="home" class="active" href="nature1.html" ><label for="menu">HOME</label></a>
+            <a id="ins" href="insects.html" ><lable for="menu">INSECTS</lable></a>
+            <a id="ani" href="animals.html" ><label for="menu">ANIMALS </lable></a>
+            <a id="cont" href="#" ><label for="menu">CONTACT ME</lable></a>
         </nav>
         
        
