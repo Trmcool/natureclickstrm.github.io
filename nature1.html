@@ -14,13 +14,17 @@
     
     <header class="navg">
         <h1 class="logo">The Nature Clicks</h1>
-        <button id="menu" onmouseover="menu()" onmouseout="nomenu()">Menu</button>
-        <nav id="navi" class="col-12-Xl col-3-xs col-6-sm col-12-lg col-9-md">
-            <div id=drop> 
-            <a id="home" class="active" href="nature1.html" ><label for="menu">HOME</label></a>
-            <a id="ins" href="insects.html" ><lable for="menu">INSECTS</lable></a>
-            <a id="ani" href="animals.html" ><label for="menu">ANIMALS </lable></a>
-            <a id="cont" href="#" ><label for="menu">CONTACT ME</lable></a>
+        
+        <nav id="navi">
+            <div class="dropdown">
+            <button class="dropbtn">Menu</button>
+            <div class="dropdown-content"> 
+            <a id="home" class="active" href="nature1.html" >HOME</a>
+            <a id="ins" href="insects.html" >INSECTS</a>
+            <a id="ani" href="animals.html" >ANIMALS </a>
+            <a id="cont" href="#" ></a>
+            </div>
+            </div>
         </nav>
         
        
@@ -28,14 +32,14 @@
     <div class="backg" id="hey"></div>
     <div class="backt">
         <div class="text">
-        <h2>wanna  know about me??</h2>
+        <h2>Wanna  know about me??</h2>
             <ul>
             <li><p>Hi there!! <br>I am Tanmay Mahindrakar...</p></li>
             <li><p>I like taking pitures of insects and animals <br> Here are some of my phone clicks.  (Hover over the images to change the background) </p></li>
-            <li><p> Pursuing my Biotechnology engineering in<br>KLE Technological University<br>I live in Hubli Karnataka<br>Native place Belagavi Karnataka<br></p></li>
+            <li><p> Pursuing my Biotechnology engineering in<br>KLE Technological University<br>I live in Hubli, Karnataka<br>Native place Belagavi, Karnataka<br></p></li>
             </ul>
             <br>
-            <p>Here is my calender!!! </p>
+            <p class="hide">Here is my calender!!! </p>
             <br>
             <iframe
                 src="https://calendar.google.com/calendar/embed?height=600&amp;wkst=1&amp;bgcolor=%23ffffff&amp;ctz=Asia%2FKolkata&amp;src=ZW4uaW5kaWFuI2hvbGlkYXlAZ3JvdXAudi5jYWxlbmRhci5nb29nbGUuY29t&amp;color=%230B8043"
@@ -55,7 +59,7 @@
             <legend>
             <label for="comm"><h3>Comments</h3></label>
             </legend>
-            <textarea name="comment" id="comm" cols="50" rows="5" placeholder="Write here..."></textarea>
+            <textarea name="comment" id="comm" cols="50" rows="3" placeholder="Write here..."></textarea>
             <br><input type="submit" name="submit" id="subm" value="Submit">
             
         </fieldset>
