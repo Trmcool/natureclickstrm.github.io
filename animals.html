@@ -7,24 +7,33 @@
     <title>nature1.0</title>
     <script src="nature1.js"></script>
     <link rel="stylesheet" href="nature1.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css"
+        integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
 </head>
 
 <body>
 
     <header class="navg">
-        <nav>
-            <a id="home" class="active" href="nature1.html">HOME</a>
-            <a id="ins" href="insects.html">INSECTS</a>
-            <a id="ani" href="animals.html">ANIMALS </a>
-            <a id="cont" href="#">CONTACT US</a>
-        </nav>
         <h1 class="logo">The Nature Clicks</h1>
+
+        <nav id="navi">
+            <div class="dropdown">
+                <div class="dropdown-content">
+                    <a id="home"  href="nature1.html">HOME</a>
+                    <a id="ins"  href="insects.html">INSECTS</a>
+                    <a id="ani" class="active" href="animals.html">ANIMALS </a>
+                    <a id="cont" href="#">CONTACT ME</a>
+                </div>
+            </div>
+        </nav>
+
 
     </header>
     <div class="backg" id="hey"></div>
     <div class="backt">
         <div class="text">
-            <h2>wanna know about me??</h2>
+            <h2>Wanna know about me??</h2>
             <ul>
                 <li>
                     <p>Hi there!! <br>I am Tanmay Mahindrakar...</p>
@@ -34,17 +43,24 @@
                         the images to change the background) </p>
                 </li>
                 <li>
-                    <p> Pursuing my Biotechnology engineering in<br>KLE Technological University<br>I live in Hubli
-                        Karnataka<br>Native place Belagavi Karnataka<br></p>
+                    <p> Pursuing my Biotechnology engineering in<br>KLE Technological University<br>I live in Hubli,
+                        Karnataka<br>Native place Belagavi, Karnataka<br></p>
                 </li>
             </ul>
-
-            <section class="imag">
+            <br>
+            <p class="hide">Here is my calender!!! </p>
+            <br>
+            <iframe
+                src="https://calendar.google.com/calendar/embed?height=600&amp;wkst=1&amp;bgcolor=%23ffffff&amp;ctz=Asia%2FKolkata&amp;src=ZW4uaW5kaWFuI2hvbGlkYXlAZ3JvdXAudi5jYWxlbmRhci5nb29nbGUuY29t&amp;color=%230B8043"
+                style="border:solid 1px #777" width="500" height="300" frameborder="0" scrolling="no" class="calender"
+                id="cd"></iframe>
+            <br>
+            <div class="column">
                 <img class="pic" src="20180414_164522.jpg" alt="ins1" onmouseover="show(this)">
                 <img class="pic" src="20180728_144714.jpg" alt="ins2" onmouseover="show(this)">
                 <img class="pic" src="20190428_125950.jpg" alt="ins3" onmouseover="show(this)">
                 <img class="pic" src="20190704_114647.jpg" alt="img4" onmouseover="show(this)">
-            </section>
+            </div>
         </div>
     </div>
 
@@ -55,10 +71,31 @@
                     <h3>Comments</h3>
                 </label>
             </legend>
-            <textarea name="comment" id="comm" cols="50" rows="5" placeholder="Write here..."></textarea>
+            <textarea name="comment" id="comm" cols="50" rows="3" placeholder="Write here..."></textarea>
             <br><input type="submit" name="submit" id="subm" value="Submit">
+
         </fieldset>
+        <div class="copyright">
+            <p class="cr">&#169; Tanmay R Mahindrakar <br>The Nature Clicks</p>
+            <a href="https://www.instagram.com/the_nature_clicks_trm?r=nametag" class="fa fa-instagram"></a>
+            <a href="https://www.linkedin.com/in/tanmay-mahindrakar-4a2270184" class="fa fa-linkedin"></a>
+            <a href="#" class="fa fa-facebook"></a>
+        </div>
     </footer>
+
+
+
+
+
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"
+        integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN"
+        crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"
+        integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q"
+        crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"
+        integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl"
+        crossorigin="anonymous"></script>
 </body>
 
 </html>
