@@ -84,7 +84,7 @@ nav a:hover{
     height:40%;
     display:inline-block;
     border-radius: 3px;
-    border: 3px solid blanchedalmond;
+    border: 5px solid rgb(235, 145, 10));
     overflow: hidden;
     position: relative;
     
@@ -137,7 +137,7 @@ aside{
     text-align: center;
     padding: .2em;
     position: relative;
-    left:20%;
+    left:15%;
     margin-top:5%;
 }
 .calender{
