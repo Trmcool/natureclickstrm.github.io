@@ -84,10 +84,9 @@ nav a:hover{
     height:40%;
     display:inline-block;
     border-radius: 3px;
-    border: 5px solid rgb(235, 145, 10));
+    border: 5px solid rgb(235, 145, 10);
     overflow: hidden;
     position: relative;
-    
 }
 
 .backg{
@@ -145,11 +144,12 @@ aside{
 }
 .fa {
   padding: 10px;
-  font-size: 20px;
-  width: 1em;
+  font-size: 30px;
+  width: 2em;
   text-align: center;
   text-decoration: none;
   margin: 5px 2px;
+  text-align: center;
 }
 
 .fa:hover {
@@ -166,4 +166,7 @@ aside{
   .fa-instagram {
   background-color: #125688;
   color: white;
+}
+.copyright{
+    text-align: center;
 }
