@@ -1,4 +1,4 @@
-@include media-breakpoint-up(xs)
+@media screen and (min-width:992px) 
 {
 *{
     box-sizing: border-box;
@@ -51,7 +51,7 @@ transition-property: all;
     color:black;
 }
 .navg h1{
-    display: inline-block;
+    display:inline-flex;
     border: 2px solid rgb(245, 242, 242);
     padding: .5em;
     background-color: rgb(243, 19, 11);
@@ -180,3 +180,4 @@ aside{
     text-align: center;
 }
 }
+
