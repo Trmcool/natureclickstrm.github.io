@@ -248,6 +248,15 @@ header{
     align-items: center;
     margin-left:0em;
     margin-bottom: 2em;
+    animation-name: example;
+    animation-duration: 4s;
+    animation-iteration-count: 3;
+}
+@keyframe example{
+    25%{background-color:orange; }
+    50%{background-color:white; }
+    75%{background-color:green; }
+    100%{background-color:black; }
 }
 #menu{
     visibility: hidden;
