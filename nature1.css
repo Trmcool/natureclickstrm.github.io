@@ -240,6 +240,14 @@ fieldset{
     font-size: 2em;
     color:black;
   }
+  .box{
+      border:2px solid grey;
+      padding-top:10%;
+      position:absolute;
+  }
+  .head h1, .head p{
+     text-align: center;
+  }
 }
 
 
@@ -495,5 +503,13 @@ aside{
 .carousel-caption h3, .carousel-caption p {
     font-size: 2em;
     color:black;
+  }
+  .box{
+      border:2px solid grey;
+      
+      padding-top:10%;
+  }
+  .head h1, .head p {
+     text-align: center;
   }
 }
