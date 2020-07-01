@@ -223,18 +223,18 @@ fieldset{
   -ms-flex: 25%; /* IE10 */
   flex: 25%;
   max-width: 25%;
-  padding: 0 4px;
+  padding: 0 1%;
 }
 
 .column img {
-  margin-top: 8px;
+  margin-top: 2%;
   vertical-align: middle;
-  width: 100%;
+  width: 20%;
 }
 .column {
-    -ms-flex: 100%;
-    flex: 100%;
-    max-width: 100%;
+    -ms-flex: 20%;
+    flex: 20%;
+    max-width: 20%;
   }
   .carousel-caption h3, .carousel-caption p {
     font-size: 2em;
