@@ -236,6 +236,10 @@ fieldset{
     flex: 100%;
     max-width: 100%;
   }
+  .carousel-caption h3, .carousel-caption p {
+    font-size: 2em;
+    color:black;
+  }
 }
 
 
@@ -487,4 +491,9 @@ aside{
   vertical-align: middle;
   width: 100%;
 }
+
+.carousel-caption h3, .carousel-caption p {
+    font-size: 2em;
+    color:black;
+  }
 }
