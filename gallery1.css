@@ -30,10 +30,10 @@ header{
 nav a{
 display: inline-block;
 padding:.3em;
-margin:.4em;
+margin:1em;
 text-align: center;
 width:13%;
-border:3px solid rgb(174, 185, 21);
+border:1px solid rgb(3, 6, 37);
 font-size: 60%;
 font-weight: bolder;
 border-radius: 10%;
