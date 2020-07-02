@@ -105,7 +105,7 @@ nav a:hover{
 }
 
 .backg{
-  background-image:url("images/20200530_061832.JPG");
+  background-image:url("images/IMG_20200521_160411536.jpg");
   filter: blur(2px);
   -webkit-filter: blur(2px);
   height: 100%;
@@ -289,12 +289,7 @@ header{
     animation-iteration-count: 3;
     top:0;
 }
-@keyframe example{
-    25%{background-color:orange; }
-    50%{background-color:white; }
-    75%{background-color:green; }
-    100%{background-color:black; }
-}
+
 #menu{
     visibility: hidden;
 }
@@ -377,7 +372,7 @@ nav a:hover{
 }
 
 .backg{
-  background-image:url("images/20180414_164522.jpg");
+  background-image:url("images/20190703_164257.jpg");
   filter: blur(2px);
   -webkit-filter: blur(2px);
   height: 130%;
