@@ -240,14 +240,7 @@ fieldset{
     font-size: 2em;
     color:black;
   }
-  .box{
-      border:2px solid grey;
-      padding-top:10%;
-      position:absolute;
-  }
-  .head h1, .head p{
-     text-align: center;
-  }
+  
 }
 
 
@@ -294,6 +287,7 @@ header{
     animation-name: example;
     animation-duration: 4s;
     animation-iteration-count: 3;
+    top:0;
 }
 @keyframe example{
     25%{background-color:orange; }
@@ -504,12 +498,5 @@ aside{
     font-size: 2em;
     color:black;
   }
-  .box{
-      border:2px solid grey;
-      
-      padding-top:10%;
-  }
-  .head h1, .head p {
-     text-align: center;
-  }
+
 }
