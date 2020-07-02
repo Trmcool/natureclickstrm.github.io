@@ -198,8 +198,8 @@ fieldset{
     color:black;
   }
    #box{
-      min-height: 90vh;
-      margin-bottom: -40px;
+      min-height: 100vh;
+      margin-bottom: -50px;
       padding: 2px;
       margin-top: 20%;
       
