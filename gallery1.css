@@ -5,7 +5,7 @@
 }
 
 body,html{
-    height: 120%;
+  height:70%;
     width: 110%;
   margin:0;
   font-family: Arial, Helvetica, sans-serif;
@@ -13,14 +13,17 @@ body,html{
 }
 
 header{
-    background-color:rgba(10, 10, 10,1);
+    background-color:burlywood;
+      border-bottom: 3px solid black;
+      border-top: 3px solid black;
     position:fixed;
     width:100%;
     height:10%;
     z-index: 1000;
     align-items: center;
-    margin-left:0em;
+    margin-left:0;
     margin-bottom: .2em;
+    top:0;
 
 }
 
@@ -56,17 +59,17 @@ transition-property: all;
 
 .navg h1{
     display:inline-flex;
-    border: 2px solid rgb(245, 242, 242);
+    border: 3px solid rgb(8, 8, 8);
     padding: .5em;
     background-color: rgb(243, 19, 11);
     font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
-    margin-left:75%;
-    margin-top: 3em;
+    margin-right:1.5%;
+    margin-top:5%;
+    float:right;
     font-size: 60%;
     color: rgb(252, 248, 16);
     text-shadow: .1em .1em .3em rgb(14, 13, 13), 0 0 .5em rgb(8, 8, 7), 0 0 0.2em rgb(17, 0, 255);
     box-shadow: #f1f1f1;
-    position: fixed;
 }
 
 nav a:hover{
@@ -166,7 +169,10 @@ fieldset{
   display: flex;
   -ms-flex-wrap: wrap; /* IE10 */
   flex-wrap: wrap;
-  padding: 0 4px;
+  padding:0 .4em;
+  left:30%;
+  position:absolute;
+ 
 }
 
 /* Create four equal columns that sits next to each other */
@@ -184,22 +190,26 @@ fieldset{
 }
 .column {
     -ms-flex: 20%;
-    flex: 20%;
+    flex: 30%;
     max-width: 20%;
   }
   .carousel-caption h3, .carousel-caption p {
     font-size: 2em;
     color:black;
   }
-  #box{
+   #box{
+      min-height: 85vh;
+      margin-bottom: -40px;
+      padding: 2px;
+      margin-top: 20%;
       
-      min-height: 100vh;
-      margin-bottom: -50px;
+      background-color: blanchedalmond;
+      
   }
-   #box:after{
+  #box:after{
     content: "";
     display:block;
-    height:50px;
+    height:100px;
   }
   .head h1, .head p{
      text-align: center;
